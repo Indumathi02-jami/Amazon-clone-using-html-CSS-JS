@@ -5,7 +5,7 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 body{
-    margin-top: 10px;
+    margin-top: 5px;
     background: #fff;
     text-align: center;
     font-family: Outfit;
@@ -112,8 +112,8 @@ footer{
     width: 100%;
     text-align: center;
     height: auto;
-    max-height: 200px;
-    margin-top: 20px;
+    max-height: 60px;
+    margin-top: 10px;
     padding: 20px 0;
     position: fixed;
     bottom: 0;
@@ -123,18 +123,19 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 .footer-link {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
     margin-bottom: 10px;
 }
 
 .footer-link a {
     text-decoration: none;
     color: #0066c0;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .footer-link a:hover {

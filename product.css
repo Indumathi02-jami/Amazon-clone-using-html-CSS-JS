@@ -215,3 +215,20 @@ body{
 .product-footer{
     margin-top: 100px;
 }
+
+/*---------media query-------*/
+
+@media only screen and (max-width: 900px){
+    .product-disply{
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width: 600px){
+    .product-icons{
+        display: none;
+    }
+    .product-main-image img{
+        width: 100%;
+        padding: 20px;
+    }
+}
